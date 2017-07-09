@@ -1,0 +1,51 @@
+/* =================================
+  Base Element Styles
+==================================== */
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+  position: fixed;
+  border-bottom: 1px solid #000;
+  width: 100%;
+  height: 80px;
+  align-items: center;
+}
+
+img {
+  margin-right: 12px;
+}
+
+/* ---- Navigation ---- */
+
+nav li {
+  display: inline-block;
+}
+
+
+/* =================================
+  Base Layout Styles
+==================================== */
+
+/* ---- Logo ---- */
+
+.logo {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  padding-left: 30px;
+}
+
+.logo span {
+  color: MediumAquamarine;
+}
