@@ -22,6 +22,12 @@ header {
   font-weight: bold;
 }
 
+h2 {
+  display: block;
+  font-size: 21px;
+  font-weight: bold;
+}
+
 a {
   color: #000;
 }
@@ -36,10 +42,6 @@ nav span {
   display: inline-block;
   padding: 20px 10px;
 }
-
-div {
-  border: 1px solid black;
-  }/* ---- TO REMOVE ---- */
 
 
 /* =================================
@@ -69,7 +71,7 @@ div {
 
 .content {
   display: flex;
-  width: 80%;
+  width: 1232px;
   margin: 0 auto 80px auto;
   padding-top: 120px;
 }
@@ -105,6 +107,8 @@ div {
 
 .main-story .image-content {
   background-image: url('../images/img-story-main.png');
+  width: 630px;
+  margin-top: 0;
   font-size: 40px;
   text-align: left;
 }
@@ -119,4 +123,46 @@ div {
 
 .cats.image-content {
   background-image: url('../images/img-story-1.png');
+}
+
+.stories {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.stories .text-content {
+  height: 250px;
+}
+
+.story {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.narrative {
+  margin-top: 16px;
+}
+
+img.cookie {
+  height: 240px;
+}
+
+.news-bites h3 {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.news-bites .bites {
+  display: block;
+  margin: 0;
+  border-bottom: 1px solid #000;
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+  padding: 10px 20px;
 }
