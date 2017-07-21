@@ -34,6 +34,10 @@ nav span {
   padding: 20px 10px;
 }
 
+div {
+  border: 1px solid black;
+  }/* ---- TO REMOVE ---- */
+
 
 /* =================================
   Base Layout Styles
@@ -56,4 +60,31 @@ nav span {
 
 .logo span {
   color: MediumAquamarine;
+}
+
+/* ---- Layout Containers ---- */
+
+.content {
+  display: flex;
+  width: 80%;
+  margin: 0 auto 80px auto;
+  padding-top: 120px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  margin-right: 32px;
+}
+
+.column.large {
+  width: 630px;
+}
+
+.column.medium {
+  width: 300px;
+}
+
+.column.small {
+  width: 240px;
 }
