@@ -10,8 +10,9 @@ body {
 }
 
 h2 {
-  display: block;
-  font-size: 21px;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 30px;
   font-weight: bold;
 }
 
@@ -109,18 +110,26 @@ nav span {
   margin-top: 0;
   font-size: 40px;
   text-align: left;
+  align-items: center;
+}
+
+.main-story .image-content span {
+  padding-left: 20px;
 }
 
 .earth.image-content {
   background-image: url('../images/img-story-2.png');
+  align-items: center;
 }
 
 .research.image-content {
   background-image: url('../images/img-story-3.png');
+  align-items: center;
 }
 
 .cats.image-content {
   background-image: url('../images/img-story-1.png');
+  align-items: center;
 }
 
 .stories {
